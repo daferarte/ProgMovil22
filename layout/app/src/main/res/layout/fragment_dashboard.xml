@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context=".ui.dashboard.DashboardFragment" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@android:color/holo_purple"
+        />
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@android:color/white"
+        android:text="Texto"
+        />
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@color/white"
+        android:text="Escribe algo"
+        android:gravity="center"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:layout_gravity="end |center_vertical"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_upload"
+        android:layout_gravity="end"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="64dp"/>
+
+
+</FrameLayout>
